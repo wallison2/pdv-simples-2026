@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_Pgto</class>
+ <widget class="QWidget" name="Form_Pgto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>692</width>
+    <height>454</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgba(0,191,255,0.6);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>20</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+     </property>
+     <property name="text">
+      <string>Finalizar Venda</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0" rowspan="2">
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Valor a Pagar</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_valor_venda">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>160</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+            <pointsize>50</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 50pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Alterar Formas de Pgto &quot;F5&quot;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_forma_pgto">
+          <property name="minimumSize">
+           <size>
+            <width>270</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>270</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+		background-color: rgb(80, 81, 82);
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 14pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+     QComboBox:hover {
+        
+	background-color: rgb(75, 85, 83);
+
+    }
+     QComboBox:pressed {
+        background-color: #2c3650;
+    }
+
+QComboBox QAbstractItemView {
+	color: rgb(255, 255, 255);
+    /* Propriedades de estilo para o menu suspenso */
+}
+</string>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <property name="currentText">
+           <string>Dinheiro</string>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+          <item>
+           <property name="text">
+            <string notr="true">Dinheiro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cartão de Crédito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cartão de Débito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Pix</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1" rowspan="2">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Troco</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_troco_finalizar">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 50pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);
+
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Dinheiro R$</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_dinheiro_finaliza">
+          <property name="minimumSize">
+           <size>
+            <width>290</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>290</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+   
+	background-color: rgb(255, 255, 255);
+    font: bold 24pt &quot;Segoe UI&quot;;
+    border-radius: 10px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(127, 191, 255); /* Cor quando selecionado/focado */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font: bold 10px &quot;Segoe UI&quot;;
+    border-radius: 10px;
+}</string>
+          </property>
+          <property name="inputMask">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="btn_finalizar_venda">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 14pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+     </property>
+     <property name="text">
+      <string>Finalizar Venda/F2</string>
+     </property>
+     <property name="shortcut">
+      <string>F2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="btn_cancelar_venda_final">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 14pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="shortcut">
+      <string>Esc</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>txt_dinheiro_finaliza</tabstop>
+  <tabstop>comboBox_forma_pgto</tabstop>
+  <tabstop>btn_finalizar_venda</tabstop>
+  <tabstop>btn_cancelar_venda_final</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_cancelar_venda_final</sender>
+   <signal>clicked()</signal>
+   <receiver>Form_Pgto</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>178</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

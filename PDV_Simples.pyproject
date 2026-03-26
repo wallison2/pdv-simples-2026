@@ -1,0 +1,15 @@
+{
+    "files": [
+        "pdv.py",
+        "form.ui",
+        "login.ui",
+        "Resource.qrc",
+        "Saida.ui",
+        "forma_pagamento.ui",
+        "dialog_ativador.ui",
+        "edit_produt.ui",
+        "cadastrar_comanda.ui",
+        "configuracoes.ui",
+        "comandas.ui"
+    ]
+}

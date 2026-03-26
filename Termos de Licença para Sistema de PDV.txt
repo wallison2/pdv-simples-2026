@@ -1,0 +1,35 @@
+Termos de Licença para Sistema de PDV
+1. Definições
+1.1 "Licenciante" refere-se ao autor original do software. 1.2 "Licenciado" refere-se ao usuário autorizado a utilizar o software. 1.3 "Software" refere-se ao sistema de PDV fornecido pelo Licenciante.
+
+2. Concessão de Licença
+2.1 O Licenciante concede ao Licenciado uma licença não exclusiva, intransferível e limitada para usar o Software, sujeita aos termos e condições deste acordo. 2.2 A licença é válida por um período de um (1) mês a partir da data de confirmação do pagamento pelo Licenciado.
+
+3. Pagamento e Renovação
+3.1 O Licenciado deve efetuar o pagamento mensal conforme acordado para continuar utilizando o Software. 3.2 Após a confirmação do pagamento, a licença será renovada automaticamente por mais um (1) mês. 3.3 Caso o pagamento não seja confirmado, o Licenciado não terá permissão para utilizar o Software até que o pagamento seja regularizado.
+
+4. Restrições
+4.1 O Licenciado não deve copiar, modificar, distribuir, vender ou alugar o Software, exceto conforme expressamente permitido por esta licença. 4.2 O Licenciado não deve realizar engenharia reversa, descompilar ou desmontar o Software.
+
+5. Atualizações e Suporte
+5.1 O Licenciante pode fornecer atualizações e suporte para o Software a seu critério. 5.2 Qualquer atualização fornecida será sujeita aos mesmos termos e condições desta licença.
+
+6. Isenção de Garantias
+6.1 O Software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo, expressas ou implícitas. 6.2 O Licenciante não garante que o Software atenderá às necessidades do Licenciado ou que a operação do Software será ininterrupta ou livre de erros.
+
+7. Limitação de Responsabilidade
+7.1 Em nenhuma circunstância o Licenciante será responsável por quaisquer danos indiretos, incidentais, consequenciais ou punitivos decorrentes do uso ou da incapacidade de usar o Software.
+
+8. Rescisão
+8.1 O Licenciante pode rescindir esta licença a qualquer momento se o Licenciado violar qualquer termo ou condição deste acordo. 8.2 Em caso de rescisão, o Licenciado deve cessar imediatamente o uso do Software.
+
+9. Disposições Gerais
+9.1 Este acordo constitui o entendimento completo entre as partes e substitui todos os entendimentos e acordos anteriores, verbais ou escritos, relativos ao objeto deste acordo. 9.2 Se qualquer disposição deste acordo for considerada inválida ou inexequível, as disposições restantes continuarão em pleno vigor e efeito.
+
+10. Lei Aplicável
+10.1 Este acordo será regido e interpretado de acordo com as leis do Brasil/Pá.
+
+Data de Vigência: 15/02/2025
+
+Licenciante: Wallison Nogueira Viana
+

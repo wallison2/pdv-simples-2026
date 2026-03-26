@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edicao_Produto</class>
+ <widget class="QWidget" name="Edicao_Produto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>620</width>
+    <height>690</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>620</width>
+    <height>690</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgba(0,191,255,0.6);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame_3">
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="2" column="2">
+       <widget class="QFrame" name="frame">
+        <property name="styleSheet">
+         <string notr="true">background: rgba(0,191,255,0.6);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="6" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_nome_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="0" colspan="2">
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Valor da Venda do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="2">
+          <widget class="QLabel" name="label_17">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Código de Barras do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="0" colspan="2">
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Valor da Compra do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_valor_compra_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0" colspan="2">
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Nome do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0" colspan="2">
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Descrição do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_descricao_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="0" colspan="2">
+          <widget class="QComboBox" name="comboBox_novo_tipo_produto">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    background-color: rgb(80, 81, 82);
+    border: 2px solid #394568;
+    border-radius: 10px;
+    font: 700 10pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);  /* Cor do texto na caixa do ComboBox */
+}
+
+QComboBox:hover {
+    background-color: rgb(75, 85, 83);
+}
+
+QComboBox:pressed {
+    background-color: #2c3650;
+}
+
+QComboBox QAbstractItemView {
+    color: rgb(255, 255, 255);  /* Cor do texto dos itens da lista */
+    background-color: rgb(80, 81, 82);  /* Cor de fundo do menu suspenso */
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    image: url(path/to/your/icon.png);  /* Se você quiser adicionar um ícone de seta */
+    width: 10px;
+    height: 10px;
+}
+</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>UNI</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PCTO</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>KG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>DUZIA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MEIA DUZIA</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="10" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_qtde_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_valor_venda_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="1">
+          <widget class="QPushButton" name="btn_sair_sem_salvar_edicao_produto">
+           <property name="minimumSize">
+            <size>
+             <width>140</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>140</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 12px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+           </property>
+           <property name="text">
+            <string>Sair Sem Salvar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="0">
+          <widget class="QPushButton" name="btn_salvar_edicao_produto">
+           <property name="minimumSize">
+            <size>
+             <width>140</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>140</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 12px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+           </property>
+           <property name="text">
+            <string>Salvar Edição</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_codigo_barras_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Código do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="label_15">
+           <property name="maximumSize">
+            <size>
+             <width>287</width>
+             <height>27</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Valores Editados</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0" colspan="2">
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Quantidade do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QLineEdit" name="txt_edit_codigo_produt">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255);
+    font: bold 12pt &quot;Segoe UI&quot;;
+    color: rgb(0, 0, 0); /* Define a cor da fonte como preta */
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    background-color: rgb(191, 191, 191); /* Cor quando selecionado/focado */
+    color: rgb(0, 0, 0); /* Mantém a fonte preta ao focar */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* Ajuste a cor da fonte para branco para contraste */
+    font: bold 8px &quot;Segoe UI&quot;;
+    border-radius: 5px;
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0" colspan="2">
+          <widget class="QLabel" name="label_19">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Editar Tipo do Produto Uni/Pcto</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background: rgba(0,191,255,0.6);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Valores Salvos</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Código Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_codigo_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Código de Barras</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_codigo_barras_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Nome do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_nome_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Descrição do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_descricao_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Quantidade do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_qtde_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Tipo do Produto Uni/Pcto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="0">
+          <widget class="QLabel" name="label_tipo_anterior_produto">
+           <property name="minimumSize">
+            <size>
+             <width>26</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Valor da Compra do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="0">
+          <widget class="QLabel" name="label_valor_compra_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+font: bold 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+           </property>
+           <property name="text">
+            <string>Valor da Venda do Produto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="0">
+          <widget class="QLabel" name="label_valor_venda_anterior_produto">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-radius: 5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="2">
+       <widget class="QLabel" name="label_7">
+        <property name="maximumSize">
+         <size>
+          <width>580</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Edição de Produtos</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

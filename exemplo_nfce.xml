@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enviNFe xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <idLote>000000000000001</idLote>
+  <indSinc>1</indSinc>
+  <NFe>
+    <infNFe versao="4.00" Id="NFe35150600000000000123550010000000011000000011">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>00000011</cNF>
+        <natOp>VENDA</natOp>
+        <mod>65</mod>
+        <serie>1</serie>
+        <nNF>1</nNF>
+        <dhEmi>2025-06-29T14:00:00-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>4</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>EMPRESA TESTE LTDA</xNome>
+        <enderEmit>
+          <xLgr>Rua Exemplo</xLgr>
+          <nro>100</nro>
+          <xBairro>Centro</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>São Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderEmit>
+        <IE>1234567890</IE>
+        <CRT>1</CRT>
+      </emit>
+
+      <det nItem="1">
+        <prod>
+          <cProd>001</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>Refrigerante Lata</xProd>
+          <NCM>22021000</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>2.0000</qCom>
+          <vUnCom>4.00</vUnCom>
+          <vProd>8.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>2.0000</qTrib>
+          <vUnTrib>4.00</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>8.00</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>1.44</vICMS>
+            </ICMS00>
+          </ICMS>
+        </imposto>
+      </det>
+
+      <total>
+        <ICMSTot>
+          <vBC>8.00</vBC>
+          <vICMS>1.44</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vProd>8.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>8.00</vNF>
+        </ICMSTot>
+      </total>
+
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>01</tPag>
+          <vPag>8.00</vPag>
+        </detPag>
+      </pag>
+
+      <infAdic>
+        <infCpl>NFC-e de teste - sem valor fiscal</infCpl>
+      </infAdic>
+    </infNFe>
+  </NFe>
+</enviNFe>

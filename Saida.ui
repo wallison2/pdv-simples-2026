@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Saida</class>
+ <widget class="QWidget" name="Saida">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>410</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>410</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgba(0,191,255,0.6);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background: rgba(0,191,255,0.6);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>80</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="Resource.qrc">:/new/img/img (129).png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 15pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Saidas - Sangrias</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>310</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Valor</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_valor_saida">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+   
+	background-color: rgb(255, 255, 127);
+    font: bold 20pt &quot;Segoe UI&quot;;
+    border-radius: 6px;
+	color: rgb(0, 0, 0);
+}
+
+QLineEdit:focus {
+    background-color: rgb(127, 191, 255); /* Cor quando selecionado/focado */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font: bold 10px &quot;Segoe UI&quot;;
+    border-radius: 6px;
+}
+
+</string>
+          </property>
+          <property name="placeholderText">
+           <string>Valor R$</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>256</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Descrição da Retirada</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit_descricao_retirada">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPlainTextEdit {
+   
+	background-color: rgb(255, 255, 127);
+    font: bold 12pt &quot;Segoe UI&quot;;
+	
+	color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+QPlainTextEdit:focus {
+    background-color: rgb(127, 191, 255); /* Cor quando selecionado/focado */
+}
+
+QMenu {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font: bold 10px &quot;Segoe UI&quot;;
+    border-radius: 6px;
+}</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+</string>
+          </property>
+          <property name="text">
+           <string>Tipo de Despesa</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_descricao_saidas">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>430</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+		background-color: rgb(80, 81, 82);
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+     QComboBox:hover {
+        
+	background-color: rgb(75, 85, 83);
+
+    }
+     QComboBox:pressed {
+        background-color: #2c3650;
+    }
+
+QComboBox QAbstractItemView {
+	color: rgb(255, 255, 255);
+    /* Propriedades de estilo para o menu suspenso */
+}
+</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Saída em Dinheiro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cancelamento de Venda</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Devolução de Produto</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Venda de Produto</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Troco</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída via Pix</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Despesas Operacionais</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Pagamento de Fornecedores</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Pagamento de Contas</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Fundo de Caixa</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída em Cartão de Crédito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída em Cartão de Débito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída para Depósito Bancário</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída para Transferência Eletrônica</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída para Pagamento de Salários</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída para Pagamento de Impostos</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Investimentos</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Retirada para Capital de Giro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saída para Compra de Ativos</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Outras Saídas ou Sangrias</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+          </property>
+          <property name="text">
+           <string>Forma de Pgto</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_forma_pgto_saida">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>430</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+		background-color: rgb(80, 81, 82);
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+     QComboBox:hover {
+        
+	background-color: rgb(75, 85, 83);
+
+    }
+     QComboBox:pressed {
+        background-color: #2c3650;
+    }
+
+QComboBox QAbstractItemView {
+	color: rgb(255, 255, 255);
+    /* Propriedades de estilo para o menu suspenso */
+}
+</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Dinheiro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cartão de Crédito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cartão de Débito</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Pix</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_salvar_saida">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+          </property>
+          <property name="text">
+           <string>Salvar Saida</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_saidas_sair">
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+    QPushButton {
+        background-color: #394568;
+        border: 2px solid #394568;
+        border-radius: 10px;
+        font: 700 10pt &quot;Segoe UI&quot;;
+		color: rgb(255, 255, 255);
+    }
+    QPushButton:hover {
+        background-color: #44537c;
+    }
+    QPushButton:pressed {
+        background-color: #2c3650;
+    }
+
+</string>
+          </property>
+          <property name="text">
+           <string>Sair</string>
+          </property>
+          <property name="shortcut">
+           <string>Esc</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_saidas_sair</sender>
+   <signal>clicked()</signal>
+   <receiver>Saida</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>475</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>172</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
